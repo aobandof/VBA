@@ -1,4 +1,4 @@
-#Libro Excel CLIENTE con VBA
+# Libro Excel CLIENTE con VBA
 >Este Libro excel fue creado para poder agilizar Registros, Gestion y Reportes de los servicios ofrecidos por mi empleador, a nuestros clientes.
 >
 >En ese entonces todo el historial de servicios se tenían que registrar en **Libros Excel**, y nos referimos a miles de **servicios** (trabajos dentales) para muchos **clientes** (Clinicas, Hospitales, Entidades Gubernametales, Facultades de Universidades, Laboratorios Dentales y Consultas particulares ) que podían tener muchas sucursales en todo el país.
@@ -20,7 +20,7 @@
 * ##### Hoja "ARANCEL"
 >Si en la hoja "PLANTILLA" usted creó una tabla de ingreso de trabajos, existirá una o mas columnas de esta tabla que se relacionarán al código y al precio del servicio ofrecido. Es muy buena práctica, crear esta hoja "ARANCEL" con una tabla que contenga la relación, con tipo, codigo y precio, de los distinos servicios que ofrecemos; además con esto conseguirá que sus tablas sean dinámicas y relacionadas.
 
-###FORMULARIOS DEL LIBRO
+### FORMULARIOS DEL LIBRO
 >A continuación detallaremos cada FORMULARIO del libro:
 ## form_reporte (Reporte Mensual de Servicios o Trabajos realizados)
 ![form_reporte](https://raw.githubusercontent.com/ofaber82/VBA/master/IMAGENES/form_reporte.png)
@@ -36,4 +36,5 @@
 
 ### Ficha con Menú personalizado
 >El libro cuenta con una ficha personalizada para poder elegir opciones avazadas y llamar a los formularios descritos anteriormente.
+>
 ![ficha_personalizada](https://raw.githubusercontent.com/ofaber82/VBA/master/IMAGENES/ficha_personalizada.png)
