@@ -23,11 +23,17 @@
 ###FORMULARIOS DEL LIBRO
 >A continuación detallaremos cada FORMULARIO del libro:
 ##form_reporte (Reporte Mensual de Servicios o Trabajos realizados)
-![jajaja](http://)
+![form_reporte](https://raw.githubusercontent.com/ofaber82/VBA/master/IMAGENES/form_reporte.png)
 >Formulario que permite hacer reporte mensual de Servicios o trabajos no facturados  Según lo que especifique la configuración de la la hoja CONFIG (si existe una condición para el reporte, si se debe incluir la cabecera, si incluímos o no el desglose con el IVA, del total bruto, etc) y según las opciones que elija en el formulario (el periodo o mes a facturar, si el reporte es de esta sucursal o todas las sucursales). Esta opción generará 1 o mas archivos excel con la tabla de trabajos reportados, la cantidad dependerá si elije imprimr la sucursal actual o todas las sucursales.
 >
 >##form_revisión (Revisión e impresión de un periodo facturado)
-![jajaja](http://)
+![form_revision](https://raw.githubusercontent.com/ofaber82/VBA/master/IMAGENES/form_revision.png)
 >Formulario que muestra (en un libro nuevo generado), la relación de trabajos correspondientes a un periodo facturado. Se generará y abrirá in libro con la selección adecuada para la impresion.
 
+>##form_actualizar_sucursales (Actualización de montos de facturación
+![form_actualizar_sucursales](https://raw.githubusercontent.com/ofaber82/VBA/master/IMAGENES/form_actualizar_sucursales.png)
+>Actualiza los montos facturados en la hoja Facturación, para lo cual recorre todas las filas de la tabla obteniendo el monto total de cada facturación y actualizando con estos montos la hoja FACTURACIÓN. Esto aplica para una o para todas las sucursales.
 
+###Ficha con Menú personalizado
+>El libro cuenta con una ficha personalizada para poder elegir opciones avazadas y llamar a los formularios descritos anteriormente.
+![ficha_personalizada](https://raw.githubusercontent.com/ofaber82/VBA/master/IMAGENES/ficha_personalizada.png)
